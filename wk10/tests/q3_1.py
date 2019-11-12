@@ -6,7 +6,7 @@ test = {
 			"cases": [ 
 				{
 					"code": r"""
-					>>> bool(0 <= gini <= .4)
+					>>> bool(.3 <= gini <= .7)
 					True
 					""",
 					"hidden": False,

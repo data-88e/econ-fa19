@@ -6,7 +6,7 @@ test = {
 			"cases": [ 
 				{
 					"code": r"""
-					>>> type(x) == float
+					>>> type(x_val) == float
 					True
 					""",
 					"hidden": False,
@@ -14,7 +14,7 @@ test = {
 				}, 
 				{
 					"code": r"""
-					>>> type(y) == float
+					>>> type(y_val) == float
 					True
 					""",
 					"hidden": False,

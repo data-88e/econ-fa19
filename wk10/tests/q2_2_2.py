@@ -6,7 +6,7 @@ test = {
 			"cases": [ 
 				{
 					"code": r"""
-					>>> us_cumulative.num_rows == 6
+					>>> us_cumulative_extended.num_rows == 6
 					True
 					""",
 					"hidden": False,
